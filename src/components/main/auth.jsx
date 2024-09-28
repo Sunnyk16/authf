@@ -1,5 +1,6 @@
 // import React from 'react';
 // import './auth.css';
+import img1 from "../../../public/img1.png"
 
 const Auth = () => {
     return (
@@ -85,7 +86,10 @@ const Auth = () => {
             </div>
 
             {/* container 2 */}
-            <div className="w-full md:w-1/2 h-48 bg-red-600 rounded-sm">
+            <div className="w-full md:w-1/2  bg-gray-300 rounded-sm">
+            <img src={img1} alt="img1" className="w-full h-full object-cover transition-transform duration-300 ease-in-out trasform hover:scale-105"></img>
+
+            
 
             </div>
         </div>
