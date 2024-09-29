@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
 return (
-    <div className=" bg-gray-100  bg-gradient-to-r from-white to-green-200 min-h-screen flex flex-col items-center justify-center text-white">
-        <h1 className="text-3xl font-bold mb-4 test  text-green-400 lg:text-7xl  mx-2">Welcome <span className=''>to</span> Our Website</h1>
+    <div className=" bg-gray-100  bg-gradient-to-r from-white to-green-200 min-h-screen flex flex-col items-center justify-center text-white p-1">
+        <h1 className="text-4xl text-center font-bold mb-4 test  text-green-400 lg:text-8xl  px-2">Welcome <span className=''>to</span> Our Website</h1>
         <p className="text-xl mb-8 text-center max-w-lg text-zinc-600">
             Discover amazing content and explore new horizons with us.
         </p>
