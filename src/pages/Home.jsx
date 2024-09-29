@@ -1,15 +1,18 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 return (
-    <div className="landing-page bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex flex-col items-center justify-center text-white">
-        <h1 className="text-5xl font-bold mb-4">Welcome to Our Website</h1>
-        <p className="text-xl mb-8 text-center max-w-lg">
+    <div className=" bg-gray-100  bg-gradient-to-r from-white to-green-200 min-h-screen flex flex-col items-center justify-center text-white">
+        <h1 className="text-7xl font-bold mb-4 test  text-green-400">Welcome <span className=''>to</span> Our Website</h1>
+        <p className="text-xl mb-8 text-center max-w-lg text-zinc-600">
             Discover amazing content and explore new horizons with us.
         </p>
-        <button className="explore-button bg-white text-blue-500 font-semibold py-2 px-4 rounded-full shadow-lg hover:bg-gray-200 transition duration-300">
+        <Link to={"/auth"} >
+        <button className="explore-button bg-white text-green-500 font-semibold py-2 px-4 rounded-full shadow-sm shadow-gray-400 hover:bg-green-300 hover:text-white hover:scale-95 transition duration-300">
             Explore
         </button>
+        </Link>
     </div>
 )
 }
